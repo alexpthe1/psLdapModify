@@ -5,10 +5,11 @@
 ###Sends a summary by email afer completion
 
 ##Example call
-###`.\Modify.ps1 -Datafile .\inputfile.csv -Stage Test -ProcessMultiHit false -DoneRecieptient reciepient@example.com`
+`.\Modify.ps1 -Datafile .\inputfile.csv -Stage Test -ProcessMultiHit false -DoneRecieptient reciepient@example.com`
 
 **-Stage**
-
+  Specify Test/Prelive/Live
+  Refers to the config.ini section [Stages]
 **-ProcessMultiHit**
 **-DoneRecieptient**
 
